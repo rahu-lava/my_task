@@ -155,7 +155,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 163, 210, 180),
+        backgroundColor: const Color.fromARGB(255, 203, 163, 210),
         title: Text('My Tasks'),
         actions: [
           IconButton(
